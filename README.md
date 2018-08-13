@@ -46,5 +46,5 @@ I am thankful to my mentor Till  for his guidance throughout the project. I have
    [Clustering Remote Cups Queue and IPP Network Printer]: <https://github.com/deepak0405/cups-filters/commit/f7fec6a34dccf82a88e3ecce05eb40f016594829>
 [Generating Merged Attributes for the Cluster]: <https://github.com/deepak0405/cups-filters/commit/365990aec31a6f92fe58e0d60113e0932098c526>
 
-   [Generating Conflicts for the printer]: <>
-   [Generating Cluster PPD File]: <>
+   [Generating Conflicts for the printer]: <https://github.com/deepak0405/cups-filters/commit/8c9e18971a3d42af90695f899284620656310140>
+   [Generating Cluster PPD File]: <https://github.com/deepak0405/cups-filters/commit/8c9e18971a3d42af90695f899284620656310140>
