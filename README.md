@@ -11,14 +11,14 @@ To print a document, one first needs to select a printer and then adjust its set
 ***
 ### My Tasks
 
-1. [PPD Generation for Remote Cups Queue] - Earlier for remote cups queues, ppd file was received from the server, after this changes the ppd file for remote cups queue is generated using the IPP Response message sent by the server which contains all the printer attributes.   
-2. [Clustering Remote Cups Queue and IPP Network Printer] - This commits allows clustering remote cups queue and IPP Network printer together in a queue. For the same changes following changes were done:
-    * Changed implicitclass backend, such that job is directly sent to the printer, rather than queuing job on the local cups server.
-    * Changed cups-browsed.c, such that now it sends the uri of the printer to the implicitclass backend.
-    * For Load Balancing Type *queue_on_server*, changed cupsGetJob function such that number of queues is directly queried to the printer.
+1. [PPD Generation for Remote Cups Queue] - Earlier for remote cups queues, ppd file was received from the server, after these changes the ppd file for remote cups queue is generated using the IPP Response message sent by the server which contains all the printer attributes.   
+2. [Clustering Remote Cups Queue and IPP Network Printer] - This commit allows clustering remote cups queue and IPP Network printer together in a queue. For the same following changes were done:
+    * Changed implicitclass backend, so that job is directly sent to the printer, rather than queuing job on the local cups server.
+    * Changed cups-browsed.c, so that now it sends the uri of the printer to the implicitclass backend.
+    * For Load Balancing Type *queue_on_server*, changed cupsGetJob function so that number of queues is directly queried to the printer.
 3. [Generating Merged Attributes for the Cluster]: Generated an ipp_t* which contains combined attributes for all the printers in the cluster.
 4. [Generating Conflicts for the printer]: Generated cups Array which contains the constraints in the cluster, i.e. pair of attributes which can't be satisfied by any printer in the cluster.
-5. [Generating Cluster PPD File]: This commit facilitates generation of ppd file for the cluster, the ppd file contains options supported by all printers in the cluster and the constraints. 
+5. [Generating Cluster PPD File]: This commit facilitates generation of ppd file for the cluster, which contains options supported by all printers in the cluster and the constraints. 
 ***
 ### Commits Link
 
@@ -34,7 +34,7 @@ All the commits can be accessed at [Commits](https://github.com/deepak0405/cups-
 - Minor fixes in generating merged attributes, like handling pwg-raster-document-sheet-back.
 ***
 ### Acknowledgement
-I am thankful to my mentors Till  for his guidance throughout the project. I have learnt a lot during the project and interacting with him was a great learning experience for me. I gained a lot of knowledge about system printing, working in linux and writing good readable code.
+I am thankful to my mentor Till  for his guidance throughout the project. I have learnt a lot during the project and interacting with him was a great learning experience for me. I gained a lot of knowledge about system printing, working in linux and writing good readable code.
 ***
 
 ### Useful Links
