@@ -18,7 +18,7 @@ To print a document, one first needs to select a printer and then adjust its set
     * For Load Balancing Type *queue_on_server*, changed cupsGetJob function such that number of queues is directly queried to the printer.
 3. [Generating Merged Attributes for the Cluster]: Generated an ipp_t* which contains combined attributes for all the printers in the cluster.
 4. [Generating Conflicts for the printer]: Generated cups Array which contains the constraints in the cluster, i.e. pair of attributes which can't be satisfied by any printer in the cluster.
-5. [Generating Cluster PPD File]: This commit facilitates genertion of ppd file for the cluster, the ppd file contains options supported by all printers in the cluster and the constraints. 
+5. [Generating Cluster PPD File]: This commit facilitates generation of ppd file for the cluster, the ppd file contains options supported by all printers in the cluster and the constraints. 
 ***
 ### Commits Link
 
