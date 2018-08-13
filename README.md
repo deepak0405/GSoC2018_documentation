@@ -34,7 +34,7 @@ All the commits can be accessed at [Commits](https://github.com/deepak0405/cups-
 - Minor fixes in generating merged attributes, like handling pwg-raster-document-sheet-back.
 ***
 ### Acknowledgement
-I am thankful to my mentors Till  for his guidance throughout the project. I have learnt a lot during the project and interacting was a great learning experience for me. I gained a lot of knowledge about system printing, working in linux and writing good readable code.
+I am thankful to my mentors Till  for his guidance throughout the project. I have learnt a lot during the project and interacting with him was a great learning experience for me. I gained a lot of knowledge about system printing, working in linux and writing good readable code.
 ***
 
 ### Useful Links
