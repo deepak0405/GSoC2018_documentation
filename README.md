@@ -32,6 +32,9 @@ All the commits can be accessed at [Commits](https://github.com/deepak0405/cups-
 - Selecting printer based on the job attributes given.
 - Sending the appropriate filter name to implicitclass backend for the selected printer, and adding functionality in the backend to call the appropriate filter.
 - Minor fixes in generating merged attributes, like handling pwg-raster-document-sheet-back.
+
+##### Issues to be handled:
+- Can there exist conflict based on document-format-supported and some other choice.
 ***
 ### Acknowledgement
 I am thankful to my mentor Till  for his guidance throughout the project. I have learnt a lot during the project and interacting with him was a great learning experience for me. I gained a lot of knowledge about system printing, working in linux and writing good readable code.
