@@ -46,6 +46,7 @@ I am thankful to my mentor Till  for his guidance throughout the project. I have
 - [PPD File Specification](https://www-cdf.fnal.gov/offline/PostScript/5003.PPD_Spec_v4.3.pdf)
 - [Job Attributes RFC](https://tools.ietf.org/html/rfc2911#section-4.2)
 - [Job Attributes LF](http://ftp.linux-foundation.org/pub/openprinting/jobticket/IPP_Mapping/IPP%20Attributes%20for%20Job%20Creation%20operation.pdf)
+- [Job Attributes Complete Explanation](http://ftp.pwg.org/pub/pwg/candidates/cs-ippprodprint10-20010212-5100.3.pdf)
 ***
    [PPD Generation for Remote Cups Queue]:<https://github.com/deepak0405/cups-filters/commit/683d3acb984360b1516e20404497462a7e4f6455>
    [Clustering Remote Cups Queue and IPP Network Printer]: <https://github.com/deepak0405/cups-filters/commit/f7fec6a34dccf82a88e3ecce05eb40f016594829>
