@@ -50,7 +50,7 @@ I am thankful to my mentor Till  for his guidance throughout the project. I have
 - [IPP Attributes Documents](https://tools.ietf.org/html/rfc8011#section-5.2)
 - [List of IPP Attributes](https://www.pwg.org/ipp/ipp-registrations.xml)
 - [IPP Tutorial: Michael Sweet](https://ftp.pwg.org/pub/pwg/ipp/wd/wd-ippguide-20180430.html)
--[Reading output of child process using pipe](http://www.microhowto.info/howto/capture_the_output_of_a_child_process_in_c.html)
+- [Reading output of child process using pipe](http://www.microhowto.info/howto/capture_the_output_of_a_child_process_in_c.html)
 ***
    [PPD Generation for Remote Cups Queue]:<https://github.com/deepak0405/cups-filters/commit/683d3acb984360b1516e20404497462a7e4f6455>
    [Clustering Remote Cups Queue and IPP Network Printer]: <https://github.com/deepak0405/cups-filters/commit/f7fec6a34dccf82a88e3ecce05eb40f016594829>
