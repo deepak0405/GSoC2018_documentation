@@ -49,6 +49,7 @@ I am thankful to my mentor Till  for his guidance throughout the project. I have
 - [Job Attributes Complete Explanation](http://ftp.pwg.org/pub/pwg/candidates/cs-ippprodprint10-20010212-5100.3.pdf)
 - [IPP Attributes Documents](https://tools.ietf.org/html/rfc8011#section-5.2)
 - [List of IPP Attributes](https://www.pwg.org/ipp/ipp-registrations.xml)
+-[IPP Tutorial: Michael Sweet]:(https://ftp.pwg.org/pub/pwg/ipp/wd/wd-ippguide-20180430.html)
 ***
    [PPD Generation for Remote Cups Queue]:<https://github.com/deepak0405/cups-filters/commit/683d3acb984360b1516e20404497462a7e4f6455>
    [Clustering Remote Cups Queue and IPP Network Printer]: <https://github.com/deepak0405/cups-filters/commit/f7fec6a34dccf82a88e3ecce05eb40f016594829>
@@ -57,4 +58,4 @@ I am thankful to my mentor Till  for his guidance throughout the project. I have
    [Generating Conflicts for the printer]: <https://github.com/deepak0405/cups-filters/commit/8c9e18971a3d42af90695f899284620656310140>
    [Generating Cluster PPD File]: <https://github.com/deepak0405/cups-filters/commit/8c9e18971a3d42af90695f899284620656310140>
    [Calling filters: you can directly use function from schedular to call the filter]: <https://wiki.debian.org/ThecupsfilterUtility>
-   [IPP Tutorial: Michael Sweet]:<https://ftp.pwg.org/pub/pwg/ipp/wd/wd-ippguide-20180430.html>
+   
