@@ -51,6 +51,7 @@ I am thankful to my mentor Till  for his guidance throughout the project. I have
 - [List of IPP Attributes](https://www.pwg.org/ipp/ipp-registrations.xml)
 - [IPP Tutorial: Michael Sweet](https://ftp.pwg.org/pub/pwg/ipp/wd/wd-ippguide-20180430.html)
 - [Reading output of child process using pipe](http://www.microhowto.info/howto/capture_the_output_of_a_child_process_in_c.html)
+- [Pipes Explained](https://stackoverflow.com/questions/11635219/dup2-dup-why-would-i-need-to-duplicate-a-file-descriptor)
 ***
    [PPD Generation for Remote Cups Queue]:<https://github.com/deepak0405/cups-filters/commit/683d3acb984360b1516e20404497462a7e4f6455>
    [Clustering Remote Cups Queue and IPP Network Printer]: <https://github.com/deepak0405/cups-filters/commit/f7fec6a34dccf82a88e3ecce05eb40f016594829>
