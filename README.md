@@ -53,6 +53,8 @@ I am thankful to my mentor Till  for his guidance throughout the project. I have
 - [Reading output of child process using pipe](http://www.microhowto.info/howto/capture_the_output_of_a_child_process_in_c.html)
 - [Pipes Explained](https://stackoverflow.com/questions/11635219/dup2-dup-why-would-i-need-to-duplicate-a-file-descriptor)
 - [Things to keep in Mind for pipe](https://stackoverflow.com/questions/29154056/redirect-stdout-to-a-file/29154328#29154328)
+- [AutoGen Explained](http://inti.sourceforge.net/tutorial/libinti/autotoolsproject.html)
+- [Make install configure](https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install)
 ***
    [PPD Generation for Remote Cups Queue]:<https://github.com/deepak0405/cups-filters/commit/683d3acb984360b1516e20404497462a7e4f6455>
    [Clustering Remote Cups Queue and IPP Network Printer]: <https://github.com/deepak0405/cups-filters/commit/f7fec6a34dccf82a88e3ecce05eb40f016594829>
@@ -62,3 +64,4 @@ I am thankful to my mentor Till  for his guidance throughout the project. I have
    [Generating Cluster PPD File]: <https://github.com/deepak0405/cups-filters/commit/8c9e18971a3d42af90695f899284620656310140>
    [Calling filters: you can directly use function from schedular to call the filter]: <https://wiki.debian.org/ThecupsfilterUtility>
    
+  
