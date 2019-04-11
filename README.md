@@ -55,6 +55,7 @@ I am thankful to my mentor Till  for his guidance throughout the project. I have
 - [Things to keep in Mind for pipe](https://stackoverflow.com/questions/29154056/redirect-stdout-to-a-file/29154328#29154328)
 - [AutoGen Explained](http://inti.sourceforge.net/tutorial/libinti/autotoolsproject.html)
 - [Make install configure](https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install)
+- [Linkers](https://www.lurklurk.org/linkers/linkers.html)
 ***
    [PPD Generation for Remote Cups Queue]:<https://github.com/deepak0405/cups-filters/commit/683d3acb984360b1516e20404497462a7e4f6455>
    [Clustering Remote Cups Queue and IPP Network Printer]: <https://github.com/deepak0405/cups-filters/commit/f7fec6a34dccf82a88e3ecce05eb40f016594829>
