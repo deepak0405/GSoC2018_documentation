@@ -38,7 +38,6 @@ All the commits can be accessed at [Commits](https://github.com/deepak0405/cups-
 - [Error while Generating Manual Cluster using "Cluster" option in cups-browsed.conf](https://github.com/OpenPrinting/cups-filters/issues/94)
 ***
 
-***
 ### Acknowledgement
 I am thankful to my mentor Till  for his guidance throughout the project. I have learnt a lot during the project and interacting with him was a great learning experience for me. I gained a lot of knowledge about system printing, working in linux and writing good readable code.
 ***
