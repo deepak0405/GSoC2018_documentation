@@ -61,12 +61,12 @@ I am thankful to my mentor Till  for his guidance throughout the project. I have
 - [Make install configure](https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install)
 - [Linkers](https://www.lurklurk.org/linkers/linkers.html)
 ***
-   [PPD Generation for Remote Cups Queue]:<https://github.com/deepak0405/cups-filters/commit/683d3acb984360b1516e20404497462a7e4f6455>
-   [Clustering Remote Cups Queue and IPP Network Printer]: <https://github.com/deepak0405/cups-filters/commit/f7fec6a34dccf82a88e3ecce05eb40f016594829>
-[Generating Merged Attributes for the Cluster]: <https://github.com/deepak0405/cups-filters/commit/365990aec31a6f92fe58e0d60113e0932098c526>
+   [PPD Generation for Remote Cups Queue]:<https://github.com/deepak0405/cups-filters/commit/8ac1ac32878cd8f91b6fd08069cd629a569a779f>
+   [Clustering Remote Cups Queue and IPP Network Printer]: <https://github.com/deepak0405/cups-filters/commit/08ce14be85a07bc74e4eaf85a7e75ecf4a292ebe>
+[Generating Merged Attributes for the Cluster]: <https://github.com/deepak0405/cups-filters/commit/ca2870334d0fb78eef00ecba586d87b15f46b3ae>
 
-   [Generating Conflicts for the printer]: <https://github.com/deepak0405/cups-filters/commit/8c9e18971a3d42af90695f899284620656310140>
-   [Generating Cluster PPD File]: <https://github.com/deepak0405/cups-filters/commit/8c9e18971a3d42af90695f899284620656310140>
+   [Generating Conflicts for the printer]: <https://github.com/deepak0405/cups-filters/commit/ca2870334d0fb78eef00ecba586d87b15f46b3ae>
+   [Generating Cluster PPD File]: <https://github.com/deepak0405/cups-filters/commit/efe3c6f5ac41fdc53817907acbc875dfe4f67453>
    [Calling filters: you can directly use function from schedular to call the filter]: <https://wiki.debian.org/ThecupsfilterUtility>
    
   
