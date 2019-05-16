@@ -23,8 +23,11 @@ To print a document, one first needs to select a printer and then adjust its set
 3. [Generating Merged Attributes for the Cluster]: Generated an ipp_t* which contains combined attributes for all the printers in the cluster.
 4. [Generating Conflicts for the printer]: Generated cups Array which contains the constraints in the cluster, i.e. pair of attributes which can't be satisfied by any printer in the cluster.
 5. [Generating Cluster PPD File]: This commit facilitates generation of ppd file for the cluster, which contains options supported by all printers in the cluster and the constraints. 
-6. [Selecting the printer for the job]: Based on the job settings requested such as pagesize, media-size, media-type, we will
+6. [Selecting the default attributes of the printer]: The printer with the maximum throughput will be the default printer of the cluster. The default values such as pagesize, media-size of the printer, will be the default value of the cluster.
+7. [Selecting the printer for the job]: Based on the job settings requested such as pagesize, media-size, media-type, we will
  select the best printer in the cluster.
+8. [Filtering job on the server]: Earlier the job was sent to the client cups server using implicitclass backend unfiltered, but now the job will be filtered at the server itself to the required pdl. A new filter pdftopippprinter.c was added which converts the pdf job to the best pdl supported by the printer.
+
 ***
 ### Commits Link
 
@@ -34,13 +37,6 @@ All the commits can be accessed at [Commits](https://github.com/deepak0405/cups-
 - [pwg-raster-document-type-supported Invalid value](https://github.com/istopwg/ippsample/issues/156#issuecomment-411157280)
 ***
 
-### Targets Left
-- Selecting printer based on the job attributes given.
-- Sending the appropriate filter name to implicitclass backend for the selected printer, and adding functionality in the backend to call the appropriate filter.
-- Minor fixes in generating merged attributes, like handling pwg-raster-document-sheet-back.
-
-##### Issues to be handled:
-- Can there exist conflict based on document-format-supported and some other choice.
 ***
 ### Acknowledgement
 I am thankful to my mentor Till  for his guidance throughout the project. I have learnt a lot during the project and interacting with him was a great learning experience for me. I gained a lot of knowledge about system printing, working in linux and writing good readable code.
@@ -71,5 +67,7 @@ I am thankful to my mentor Till  for his guidance throughout the project. I have
    [Generating Cluster PPD File]: <https://github.com/deepak0405/cups-filters/commit/efe3c6f5ac41fdc53817907acbc875dfe4f67453>
    [Calling filters: you can directly use function from schedular to call the filter]: <https://wiki.debian.org/ThecupsfilterUtility>
    [Selecting the printer for the job]: <https://github.com/deepak0405/cups-filters/commit/0dbd11ab6547894499f99f5d41c2ff4f3c149c5c>
+   [Filtering job on the server]: <https://github.com/deepak0405/cups-filters/commit/ba2252d0f7acae64aafb05023f57dbb3df6cdad8>
+   [Selecting the default attributes of the printer]: <https://github.com/deepak0405/cups-filters/commit/92dc4b687f0de19237fc94cef4c222e82de78915>
    
   
