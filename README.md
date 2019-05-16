@@ -35,6 +35,7 @@ All the commits can be accessed at [Commits](https://github.com/deepak0405/cups-
 ***
 ### Issues Created
 - [pwg-raster-document-type-supported Invalid value](https://github.com/istopwg/ippsample/issues/156#issuecomment-411157280)
+- [Error while Generating Manual Cluster using "Cluster" option in cups-browsed.conf](https://github.com/OpenPrinting/cups-filters/issues/94)
 ***
 
 ***
