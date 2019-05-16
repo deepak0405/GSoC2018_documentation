@@ -1,6 +1,6 @@
 # Content Oriented Printer Autoselection : GSoC 2018
 
-![alt text](https://github.com/deepak0405/GSoC2018_documentation/blob/master/a.jpg){:height="300px" width="300px"}
+![alt text](https://github.com/deepak0405/GSoC2018_documentation/blob/master/a.jpg&s=200)
 My name is Deepak Patankar and  I was involved in GSoC'18 with **OpenPrinting** under The Linux Foundation working on **Content Oriented Printer AutoSelection**
 
   - Mentor : **Till Kamppeter**
