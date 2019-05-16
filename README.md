@@ -23,6 +23,8 @@ To print a document, one first needs to select a printer and then adjust its set
 3. [Generating Merged Attributes for the Cluster]: Generated an ipp_t* which contains combined attributes for all the printers in the cluster.
 4. [Generating Conflicts for the printer]: Generated cups Array which contains the constraints in the cluster, i.e. pair of attributes which can't be satisfied by any printer in the cluster.
 5. [Generating Cluster PPD File]: This commit facilitates generation of ppd file for the cluster, which contains options supported by all printers in the cluster and the constraints. 
+6. [Selecting the printer for the job]: Based on the job settings requested such as pagesize, media-size, media-type, we will
+ select the best printer in the cluster.
 ***
 ### Commits Link
 
@@ -68,5 +70,6 @@ I am thankful to my mentor Till  for his guidance throughout the project. I have
    [Generating Conflicts for the printer]: <https://github.com/deepak0405/cups-filters/commit/ca2870334d0fb78eef00ecba586d87b15f46b3ae>
    [Generating Cluster PPD File]: <https://github.com/deepak0405/cups-filters/commit/efe3c6f5ac41fdc53817907acbc875dfe4f67453>
    [Calling filters: you can directly use function from schedular to call the filter]: <https://wiki.debian.org/ThecupsfilterUtility>
+   [Selecting the printer for the job]: <https://github.com/deepak0405/cups-filters/commit/0dbd11ab6547894499f99f5d41c2ff4f3c149c5c>
    
   
