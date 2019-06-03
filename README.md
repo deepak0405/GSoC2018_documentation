@@ -9,7 +9,7 @@ My name is Deepak Patankar and  I was involved in GSoC'18 with **OpenPrinting** 
   - Mentor : **Till Kamppeter**
   - Project Link : https://summerofcode.withgoogle.com/projects/#6531939176022016
   - Tests Done : https://docs.google.com/spreadsheets/d/1TyF2G7qi_18TxgploEhfFnV2c8qbcaoSAbGLXAI1EJU/edit#gid=0
-  - PPT File : 
+  - PPT File : https://github.com/deepak0405/GSoC2018_documentation/blob/master/Content%20Oriented%20Printer%20Autoselection.pdf
 
 ***
 ### About the project
